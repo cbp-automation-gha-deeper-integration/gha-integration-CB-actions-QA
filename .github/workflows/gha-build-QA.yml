@@ -70,7 +70,7 @@ jobs:
           # cloudbees-pat: ${{ secrets.CBP_PAT_QA }}
           
       - name: Publish evidence
-        uses: cloudbees-io-gha/publish-evidence-item@v2.0.0
+        uses: cloudbees-io-gha/publish-evidence-item@v2
         with:
           cloudbees-url: "https://api.saas-qa.beescloud.com"
           # cloudbees-pat: ${{ secrets.CBP_PAT_QA }}
